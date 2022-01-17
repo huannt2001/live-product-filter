@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Product Filter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2 class="header__title">Live Product Filter</h2>
+            <div class="header__input-wrap">
+                <div class="header__search-icon">
+                    <i class="fas fa-search"></i>
+                </div>
+                <input type="text" placeholder="Tìm sản phẩm mong muốn ..." class="header__input">
+            </div>
+        </div>
+
+        <div class="product-list">
+            <!-- <div class="product__item">
+                <img src="./img/img1.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Fjallraven - Foldsack No. 1 Ba</h4>
+                    <div class="product__item-price">$109.95</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img2.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Mens Casual Premium Slim Fit T</h4>
+                    <div class="product__item-price">$22.3</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img3.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Mens Cotton Jacket</h4>
+                    <div class="product__item-price">$55.99</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img4.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Mens Casual Slim Fit</h4>
+                    <div class="product__item-price">$15.99</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img5.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">John Hardy Women's Legends Nag</h4>
+                    <div class="product__item-price">$695</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img6.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Solid Gold Petite Micropave</h4>
+                    <div class="product__item-price">$168</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img7.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">White Gold Plated Princess</h4>
+                    <div class="product__item-price">$9.99</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img8.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Pierced Owl Rose Gold Plated S</h4>
+                    <div class="product__item-price">$10.99</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img9.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">WD 2TB Elements Portable Exter</h4>
+                    <div class="product__item-price">$64</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img10.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">SanDisk SSD PLUS 1TB Internal</h4>
+                    <div class="product__item-price">$109</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img11.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Silicon Power 256GB SSD 3D NAN</h4>
+                    <div class="product__item-price">$109</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img12.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">WD 4TB Gaming Drive Works with</h4>
+                    <div class="product__item-price">$114</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img13.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Acer SB220Q bi 21.5 inches Ful</h4>
+                    <div class="product__item-price">$599</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img14.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Samsung 49-Inch CHG90 144Hz Cu</h4>
+                    <div class="product__item-price">$999.99</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img15.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">BIYLACLESEN Women's 3-in-1 Sno</h4>
+                    <div class="product__item-price">$56.99</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img16.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Lock and Love Women's Removabl</h4>
+                    <div class="product__item-price">$29.95</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img17.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Rain Jacket Women Windbreaker</h4>
+                    <div class="product__item-price">$39.99</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img18.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">MBJ Women's Solid Short Sleeve</h4>
+                    <div class="product__item-price">$9.85</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img19.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">Opna Women's Short Sleeve Mois</h4>
+                    <div class="product__item-price">$7.95</div>
+                </div>
+            </div>
+            <div class="product__item">
+                <img src="./img/img20.jpg" alt="" class="product__item-image">
+                <div class="product__item-desc">
+                    <h4 class="product__item-name">DANVOUY Womens T Shirt Casual</h4>
+                    <div class="product__item-price">$12.99</div>
+                </div>
+            </div> -->
+        </div>
+    </div>
+
+    <script>
+        const products = document.querySelectorAll('.product-list')
+        const input = document.querySelector('.header__input')
+
+        const listItem = []
+
+        getData()
+        async function getData() {
+            const res = await fetch('https://fakestoreapi.com/products')
+            const result = await res.json()
+            // result: bây giờ là một mảng gồm các object
+
+            //Clear product list
+            products.innerHTML = ''
+
+            result.forEach(product => {
+                const div = document.createElement('div')
+                div.className = 'product__item'
+
+                div.innerHTML = `
+                    <img src="${product.image}" alt="" class="product__item-image">
+                    <div class="product__item-desc">
+                        <h4 class="product__item-name">${product.title}</h4>
+                        <div class="product__item-price">${product.price}</div>
+                    </div>
+                `
+            })
+        }
+
+        input.addEventListener('input', () => {
+            searchItem(input.value)
+        })
+
+        function searchItem(value) {
+            Array.from(products).forEach(product => {
+                if (!product.innerText.toLowerCase().includes(value.toLowerCase())) {
+                    product.classList.add('hide')
+                } else {
+                    product.classList.remove('hide')
+                }
+            })
+        }
+
+    </script>
+</body>
+
+</html>
